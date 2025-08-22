@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl">
           {/* Patient */}
           <div
-            onClick={() => navigate("/patient")}
+            onClick={() => navigate("/signup")}
             className="cursor-pointer bg-white shadow-lg rounded-2xl p-8 border border-gray-200 hover:border-green-500 hover:shadow-2xl transition"
           >
             <h2 className="text-2xl font-semibold text-gray-800 mb-3">Patient</h2>
@@ -31,7 +31,7 @@ const LandingPage = () => {
 
           {/* Doctor */}
           <div
-            onClick={() => navigate("/doctor")}
+            onClick={() => navigate("/login")}
             className="cursor-pointer bg-white shadow-lg rounded-2xl p-8 border border-gray-200 hover:border-green-500 hover:shadow-2xl transition"
           >
             <h2 className="text-2xl font-semibold text-gray-800 mb-3">Doctor</h2>
